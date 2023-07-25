@@ -1,0 +1,36 @@
+.pagination {
+  width: 1077px;
+  margin: 30px auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  .page {
+    padding: 10px;
+    color: #474955;
+    border: none;
+    cursor: pointer;
+  }
+
+  .pageCurrent {
+    color: #7EBC3C;
+    cursor: pointer;
+  }
+
+  span {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  button {
+    cursor: pointer;
+    background: none;
+    font-size: 24px;
+    font-weight: 500;
+    color: #474955;
+  }
+
+}

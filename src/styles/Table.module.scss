@@ -1,0 +1,39 @@
+.table {
+  width: 1077px;
+  margin: auto;
+  border-spacing: 0;
+
+
+  .table_head {
+    color: #FFFFFF;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 14px;
+    height: 54px;
+    background: #474955;
+
+    th {
+      padding: 19px 16px;
+    }
+  }
+
+  .table_row {
+    border-bottom: 2px solid #E3E6EC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #474955;
+
+    .table_cell__id {
+      text-align: center;
+      padding: 41px 31px;
+    }
+
+    th {
+      border: 1px solid #E3E6EC;
+      text-align: start;
+      padding: 10px;
+    }
+
+  }
+
+}
